@@ -5,7 +5,7 @@ the World Bank-administered Indonesian High-Frequency (HiFy) Monitoring datasets
 The simulation exercise is based on an ongoing work to monitor COVID-19 effects on employment across gender groups in Indonesia, 
 with [Daniel Halim](https://www.danielhalim.com/) and [Ririn Salwa Purnamasari](https://www.worldbank.org/en/about/people/r/ririn-salwa-purnamasari). 
 The work consists of two layers of analysis from different data sources: the nationally-representative labor force survey dataset (Sakernas), and 
-the HiFy data. Due to the different nature of the datasets, findings from these two analyses are expected to supplement the other. 
+the HiFy data. Due to the different nature of the datasets, the findings from these two analyses are expected to supplement each other. 
 
 Through the simulation exercise conducted in this repository, the author aims to demonstrate the value of adding a second, non-household head, adult sample 
 in high-frequency monitoring surveys to maintain representativeness at the national level. 
