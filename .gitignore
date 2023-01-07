@@ -1,0 +1,15 @@
+# packages #
+############
+*.rar
+*.zip
+
+# specific data formats #
+#########################
+*.csv
+*.xlsx
+*.xls
+*.dta
+
+# notebook formats #
+####################
+*.ipynb_checkpoints
