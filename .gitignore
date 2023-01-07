@@ -13,3 +13,9 @@
 # notebook formats #
 ####################
 *.ipynb_checkpoints
+
+# R history, R project files # 
+##############################
+*.Rhistory
+*.Rproj
+.Rproj.user/
