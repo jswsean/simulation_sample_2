@@ -24,3 +24,6 @@
 *.Rhistory
 *.Rproj
 .Rproj.user/
+
+# specific folder paths #
+blog/
