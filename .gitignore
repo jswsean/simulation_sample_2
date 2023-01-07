@@ -3,6 +3,11 @@
 *.rar
 *.zip
 
+# document formats #
+####################
+*.doc
+*.docx
+
 # specific data formats #
 #########################
 *.csv
