@@ -150,9 +150,17 @@ feb20_viz <- ggplot(feb20_density_df,
                      xmin = pre_feb20,
                      y = 250,
                      height = 2), linetype = "twodash") +
+  geom_errorbarh(aes(xmax = hify_feb20_ll,
+                     xmin = quantile(simresult_df$feb20, .5),
+                     y = 250,
+                     height = 2), linetype = "twodash") +
   annotate("text", x = .718, 
            y = 255, label = paste0(format((quantile(simresult_df$feb20, .5) - 
                                            pre_feb20)*100, digits = 2), " p.p.")) +
+  annotate("text", x = .727, 
+           y = 255, label = paste0(format((hify_feb20_ll - 
+                                             quantile(simresult_df$feb20, .5))*100, 
+                                          digits = 2), " p.p.")) +
   labs(
     x = "Proportion working in Feb. 2020",
     y = "Density estimate", 
@@ -197,9 +205,17 @@ aug20_viz <- ggplot(aug20_density_df,
                      xmin = pre_aug20,
                      y = 400,
                      height = 2), linetype = "twodash") +
+  geom_errorbarh(aes(xmax = hify_jul20_ll,
+                     xmin = quantile(simresult_df$aug20, .5),
+                     y = 400,
+                     height = 2), linetype = "twodash") +
   annotate("text", x = .672, 
            y = 410, label = paste0(format((quantile(simresult_df$aug20, .5) - 
                                              pre_aug20)*100, digits = 2), " p.p.")) +
+  annotate("text", x = .681, 
+           y = 410, label = paste0(format((hify_jul20_ll - 
+                                             quantile(simresult_df$aug20, .5))*100, 
+                                          digits = 2), " p.p.")) +
   labs(
     x = "Proportion working in mid 2020",
     y = "Density estimate", 
