@@ -17,7 +17,8 @@ is implemented on the Sakernas data.
 The two datasets used in the simulation exercise are as follows:
 1. Indonesian National Labor Force Survey (Sakernas); Sakernas is a nationally-representative labor force survey that is administered twice a year, in February and in August. 
 The February and August rounds differ importantly in terms of the level of representativeness--while August rounds are representative at the district level, February 
-rounds are only representative at the province level. Unfortunately, due to data distribution policy, the author is unable to share the Sakernas datasets on this repository.
+rounds are only representative at the province level. The simulation exercise will focus on the February 2020 and August 2020 rounds, as they coincide with 
+HiFy Round 5 (July 2020) and recall data from February 2020. Unfortunately, due to data distribution policy, the author is unable to share the Sakernas datasets on this repository.
 
 2. Indonesia High-Frequency (HiFy) COVID-19 Monitoring dataset; the dataset is a cleaned version of Round 5 Indonesia HiFy datasets, which are publicly accessible 
 at this [link](https://microdata.worldbank.org/index.php/catalog/3938).
